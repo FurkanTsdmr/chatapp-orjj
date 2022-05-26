@@ -11,7 +11,7 @@ function ChatList() {
 
 	return (
 
-		<div className={styles.chatlist} >
+		<div className={styles.chatlist} style={{backgroundColor:"gray"}}>
 			<ScrollableFeed forceScroll={true}>
 				{messages.map((item, key) => (
 					<ChatItem key={key} item={item} />

@@ -17,8 +17,9 @@ function App() {
 			<DarkMode />
 			<Container />
 			<Footer />
+
 		</ChatProvider >
-		
+
 
 
 
