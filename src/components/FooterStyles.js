@@ -1,35 +1,35 @@
 import styled from "styled-components";
-   
+
 export const Box = styled.div`
-  padding: 80px 60px;
+  padding: 65px ;
   background: whi;
   position: absolute;
   bottom: 0;
   width: 100%;
+  padding-left:25px;
   
-  
-   
+
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
 `;
-   
+
+
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
-    /* background: red; */
 `
-   
+
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
   margin-left: 60px;
 `;
-   
+
 export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, 
@@ -41,7 +41,7 @@ export const Row = styled.div`
                            minmax(200px, 1fr));
   }
 `;
-   
+
 export const FooterLink = styled.a`
   color: black;
   margin-bottom: 1px;
@@ -53,10 +53,12 @@ export const FooterLink = styled.a`
       transition: 200ms ease-in;
   }
 `;
-   
+
 export const Heading = styled.p`
   font-size: 24px;
   color: green;
   margin-bottom: 40px;
   font-weight: bold;
+  
 `;
+

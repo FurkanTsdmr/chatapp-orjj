@@ -8,10 +8,13 @@ import {
     Heading,
 } from "./FooterStyles";
 
+import scrollbar from "./footerscrolbar.css"
+
 const Footer = () => {
     return (
-        <Box>
+        <Box >
             <h1 style={{
+                
                 color: "green",
                 textAlign: "center",
                 marginTop: "-50px"
