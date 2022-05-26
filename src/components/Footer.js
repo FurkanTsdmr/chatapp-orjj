@@ -26,6 +26,7 @@ const Footer = () => {
                     <Column>
                         <Heading>About Us</Heading>
                         <FooterLink href="https://www.erkagrubu.com/tr-tr" target={"_blank"}>Who Are We</FooterLink>
+                        <FooterLink href="https://www.linkedin.com/in/furkan-tasdemir/" target={"_blank"}>Who Am I</FooterLink>
                         <FooterLink href="#">Aim</FooterLink>
                         <FooterLink href="#">Vision</FooterLink>
                         <FooterLink href="#">Testimonials</FooterLink>
