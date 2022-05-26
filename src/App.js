@@ -5,19 +5,22 @@ import Container from "./components/Container";
 import DarkMode from "./components/DarkMode.tsx";
 import Footer from "./components/Footer"
 
+
 function App() {
 	return (
-
-		<ChatProvider>
-			<div className="container">
+		<ChatProvider >
+			<div className="container" >
 				<div className="header">
-					<h1 >ChatApp</h1>
+					<h1>ChatApp</h1>
 				</div>
 			</div>
 			<DarkMode />
 			<Container />
 			<Footer />
-		</ChatProvider>
+		</ChatProvider >
+		
+
+
 
 	);
 }

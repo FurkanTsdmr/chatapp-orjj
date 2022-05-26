@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <Box >
             <h1 style={{
-                
+
                 color: "green",
                 textAlign: "center",
                 marginTop: "-50px"
@@ -40,10 +40,12 @@ const Footer = () => {
                     </Column>
                     <Column>
                         <Heading>Contact Us</Heading>
-                        <FooterLink href="#">Uttar Pradesh</FooterLink>
-                        <FooterLink href="#">Ahemdabad</FooterLink>
-                        <FooterLink href="#">Indore</FooterLink>
-                        <FooterLink href="#">Mumbai</FooterLink>
+                        <FooterLink  >
+                            <a href="mailto: erka@erkagrubu.com" style={{ textDecoration: "none" }} >Send E-Mail Erka Group</a></FooterLink>
+                        <FooterLink href="#" >
+                            <a href="mailto: furkantsdmr97@gmail.com" style={{ textDecoration: "none" }}  >
+                                Send E-Mail Developer</a>
+                        </FooterLink>
                     </Column>
                     <Column>
                         <Heading>Social Media</Heading>
