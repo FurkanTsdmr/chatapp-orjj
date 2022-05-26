@@ -2,12 +2,16 @@ import "./App.css";
 
 import { ChatProvider } from "./context/ChatContext";
 import Container from "./components/Container";
+import DarkMode from "./components/DarkMode.tsx";
 
 function App() {
 	return (
-		<ChatProvider>
-			<Container />
-		</ChatProvider>
+
+			<ChatProvider>
+				<DarkMode />
+				<Container />
+			</ChatProvider>
+
 	);
 }
 
