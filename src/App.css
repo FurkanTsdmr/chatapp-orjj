@@ -2,3 +2,8 @@
   width: 700px;
   margin: 0 auto;
 }
+
+.header {
+  text-align: center;
+  color: cadetblue;
+}
