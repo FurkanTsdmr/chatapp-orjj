@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import styles from "./styles.module.css";
+
 import { sendMessage } from "../socketApi";
 import { useChat } from "../context/ChatContext";
 

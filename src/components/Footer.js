@@ -8,6 +8,7 @@ import {
     Heading,
 } from "./FooterStyles";
 
+
 import scrollbar from "./footerscrolbar.css"
 
 const Footer = () => {

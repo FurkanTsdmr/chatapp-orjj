@@ -1,6 +1,7 @@
 const chatbar = document.getElementById('js-chatbar');
 
 function toggle() {
+  
 
   if (chatbar.classList.contains('--is-active')) {
     chatbar.classList.add("--drop");

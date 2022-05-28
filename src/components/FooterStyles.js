@@ -6,6 +6,7 @@ export const Box = styled.div`
   position: absolute;
   bottom: 0;
   width: 100%;
+  
   padding-left:25px;
 
   @media (max-width: 1000px) {
